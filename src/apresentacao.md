@@ -3,13 +3,13 @@
 Alunos:
 <!-- Links do Github -->
 [Lucas Edson](https://github.com/lucasedson)
-Robson Pereira
+[Robson Pereira](https://github.com/pereirarob)
 Gabriel Henrique
-Raphael Moura
-Ícaro Wanderley
+[Raphael Moura](https://github.com/orafamoura)
+[Ícaro Wanderley](https://github.com/IcaroWanderley)
 Rosimar Cavalcante
-Igor Jose
-Erick Reis da Silva
+[Igor Jose](https://github.com/igorjose23)
+[Erick Reis da Silva](https://github.com/Erick980)
 
 ## Projeto: Avalia.AI
 ### Descrição do Problema:
