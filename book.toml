@@ -1,4 +1,5 @@
 [book]
-authors = ["Lucas Edson"]
-language = "en"
+title = "Avalia Ai - Projeto"
+authors = ["Lucas Edson",  "Robson Pereira", "Gabriel Henrique", "Raphael Moura", "Ícaro Wanderley", "Rosimar Cavalcante", "Igor Jose", "Erick Reis da Silva"]
+language = "pt-br"
 src = "src"
