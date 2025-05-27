@@ -2,7 +2,7 @@
 ## TCC Escola da Nuvem - Módulo RESTART
 Alunos:
 <!-- Links do Github -->
-[Lucas Edson](https://github.com/lucas-edson)
+[Lucas Edson](https://github.com/lucasedson)
 Robson Pereira
 Gabriel Henrique
 Raphael Moura
