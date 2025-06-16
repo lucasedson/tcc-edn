@@ -27,7 +27,7 @@ Escolhemos o EC2 para o backend, pois ele oferece uma grande flexibilidade, perm
   <tr>
     <td>22</td>
     <td>SSH</td>
-    <td>Bastion IP</td>
+    <td>[Meu IP]</td>
     <td>Conexão SSH</td>
   </tr>
   <tr>
@@ -44,12 +44,13 @@ Utilizamos o Auto Scaling para gerenciar o escalonamento da instância, primaria
 #### Configurações:
 - **Quantidade de minima de instancias:** 1
 - **Quantidade de maxima de instancias:** 8
+- **Quantidade de instancias desejadas:** 1
 - **Familia de instancias:** t3.micro
 - **Gatilho:**
   - **Metrica**: CPUUtilization
   -  **Limite**: 70%
 
 ### Load Balancer
-Configuramos o load balancer para o backend, para distribuir as solicitações de forma equilibrada entre as instancias do backend.
+Configuramos o load balancer para o backend, para distribuir as solicitações de forma equilibrada entre as instancias do backend. Além de servir o endpoint de acesso ao backend.
 
 Tipo: Application Load Balancer
