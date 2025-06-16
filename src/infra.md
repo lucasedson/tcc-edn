@@ -4,7 +4,7 @@
 A arquitetura da plataforma Avalia.AI foi projetada para ser escalável e permitir a expansão da plataforma de forma flexível e contínua. Com isso, a solução escolida foi o uso da Nuvem AWS, que oferece escalabilidade, disponibilidade e segurança.
 
 ## Diagrama da Arquitetura
-![Diagrama da Arquitetura](../img/diagrama-geral.png "Diagrama da Arquitetura")
+![Diagrama da Arquitetura](../img/diagrama.png "Diagrama da Arquitetura")
 
 ## Principais Serviços utilizados
 
