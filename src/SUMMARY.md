@@ -12,6 +12,7 @@
     - [🟡 Frontend (EC2)](./infra/frontend.md)
     - [🟡 Backend (EC2)](./infra/backend.md)
     - [🟡 Microserviço (ECS + Fargate)](./infra/microservicos.md)
+    - [🟡 Funções (Lambda)](./infra/funcoes.md)
     - [⭕ SQS](./infra/sqs.md)
     - [🟢 Storage (S3)](./infra/storage.md)
   - [🟣 São Paulo (us-east-2)](./infra/regions/sa-east-1.md)
