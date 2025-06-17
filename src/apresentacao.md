@@ -2,13 +2,13 @@
 ## TCC Escola da Nuvem - Módulo RESTART
 Alunos:
 <!-- Links do Github -->
-[Lucas Edson](https://github.com/lucasedson)
-[Robson Pereira](https://github.com/pereirarob)
-Gabriel Henrique
-[Raphael Moura](https://github.com/orafamoura)
-[Ícaro Wanderley](https://github.com/IcaroWanderley)
-Rosimar Cavalcante
-[Igor Jose](https://github.com/igorjose23)
+[Lucas Edson](https://github.com/lucasedson) |
+[Robson Pereira](https://github.com/pereirarob) |
+Gabriel Henrique |
+[Raphael Moura](https://github.com/orafamoura) |
+[Ícaro Wanderley](https://github.com/IcaroWanderley) |
+[Rosimar Cavalcante](https://github.com/rosimar5) |
+[Igor Jose](https://github.com/igorjose23) |
 [Erick Reis da Silva](https://github.com/Erick980)
 
 ## Projeto: Avalia.AI
