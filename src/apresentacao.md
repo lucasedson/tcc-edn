@@ -1,10 +1,9 @@
 # Apresentação do Projeto
 ## TCC Escola da Nuvem - Módulo RESTART
 Alunos:
-<!-- Links do Github -->
 [Lucas Edson](https://github.com/lucasedson) |
 [Robson Pereira](https://github.com/pereirarob) |
-Gabriel Henrique |
+[Gabriel Henrique](https://github.com/Gabrielrics) |
 [Raphael Moura](https://github.com/orafamoura) |
 [Ícaro Wanderley](https://github.com/IcaroWanderley) |
 [Rosimar Cavalcante](https://github.com/rosimar5) |
