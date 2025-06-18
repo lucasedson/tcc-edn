@@ -3,7 +3,7 @@
 # Apresentação do Projeto
 - [📃 Apresentação do Projeto](./apresentacao.md)
   - [⏲️ Sprints](./apresentacao/sprints.md)
-# ☁️ Solução Cloud (AWS)
+# ☁️ Solução Cloud - MVP
 <!-- - [☁️ Solução Cloud (AWS)](./infra.md) -->
 - [🏛️ Arquitetura](./infra.md)
   <!-- - [Regiões](./infra/regions.md) -->
@@ -18,6 +18,8 @@
   - [🟣 São Paulo (us-east-2)](./infra/regions/sa-east-1.md)
     - [🔵 Database (RDS)](./infra/database.md)
 
+# 📝 Observações
+- [**🚀 Além do MVP**](./infra/observacoes.md)
   <!-- - [💂‍♀️ IAM](./infra/iam.md) -->
 <!-- - [💲 Estimativa de Custo](./infra/custo.md) -->
 <!-- - [👨‍💻 IaC](./iac.md) -->

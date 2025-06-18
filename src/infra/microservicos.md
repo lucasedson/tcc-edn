@@ -1,7 +1,7 @@
 # Microserviço (ECS +Fargate)
 
 ## Visão Geral
-O objetivo deste microserviço é fornecer a capacidade de processamento de imagens de provas, permitindo que os professores possam avaliar as provas de forma automática e otimizada.
+O objetivo deste microserviço é fornecer a capacidade de processamento de imagens de avaliações, permitindo que os professores possam avaliar as provas de forma automática e otimizada.
 Este microserviço será hospedado na Nuvem AWS, utilizando o ECS para gerenciamento de containers e Fargate para provisionamento de containers. A imagem do microserviço será armazenada no ECR para facilitar a manutenção e deploy.
 
 ## Configuração
@@ -17,7 +17,9 @@ Este microserviço será hospedado na Nuvem AWS, utilizando o ECS para gerenciam
 
 ## Escalonamento Automático:
 O microserviço será escalonado de forma automática, conforme a demanda, utilizando o SQS e o Alarme do CloudWatch com Funções Lambda.
-Por exemplo: Se houver uma ou mais provas pendentes na fila de envio de mensagens e não houver nenhum worker online. O Alarme do CloudWatch irá acionar as Funções Lambda, que irão criar novos workers para processar as provas pendentes.
+Por exemplo: Se houver uma ou mais provas pendentes na fila de envio de mensagens e não houver nenhum worker em execução. O Alarme do CloudWatch irá acionar as Funções Lambda, que irão criar novos workers para processar as provas pendentes.
+
+No entanto, se houver um ou mais workers online e nenhuma prova pendente na fila de envio de mensagens. O Alarme do CloudWatch irá acionar as Funções Lambda, que irão encerrar os workers online.
 
 Conforme mostrado no diagrama abaixo:
 

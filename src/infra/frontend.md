@@ -7,11 +7,9 @@ Escolhemos o EC2 para o frontend, pois ele oferece uma grande flexibilidade, per
 - **Tipo**: t3.micro
 - **GB de armazenamento:** 8
 - **VPC**: east1-vpc
-- **AMI**: ami-backend (Baseado no Ubuntu Server 24 LTS)
-- **Grupo de Segurança:**
-[east1-frontend-sg](/infra/frontend.html#grupo-de-segurança---east1-frontend-sg)
-- **Auto Scaling:**
-[east1-backend-asg](/infra/frontend.html#grupo-do-auto-scaling---east1-frontend-asg)
+- **AMI**: ami-frontend (Baseado no Ubuntu Server 24 LTS)
+- **Grupo de Segurança:** east1-frontend-sg
+- **Auto Scaling:** east1-frontend-asg
   
 
 ### Grupo de Segurança - east1-frontend-sg
@@ -52,6 +50,9 @@ Utilizamos o Auto Scaling para gerenciar o escalonamento da instância, primaria
   
 
 ### Load Balancer
-Configuramos o load balancer para o backend, para distribuir as solicitações de forma equilibrada entre as instancias do backend. Além de servir o endpoint de acesso ao backend.
+Configuramos o load balancer para o frontend, utilizando o Application Load Balancer (ALB) do Amazon Elastic Load Balancing Service (ELB).
 
-Tipo: Application Load Balancer
+- **Tipo**: Application Load Balancer
+- **Protocolo**: HTTPS
+- **Porta**: 443
+- **VPC**: east1-vpc

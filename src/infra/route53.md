@@ -19,7 +19,7 @@ Neste projeto, utilizamos o Amazon Route 53 como serviço de DNS gerenciado para
 
 **Evaluate Target Health**: true (verifica saúde do destino)
 
-**Protocolo de Acesso**: HTTPS (embora configurado no Load Balancer, não no Route 53)
+**Protocolo de Acesso**: HTTPS
 
 ### Política de Roteamento
 **Tipo**: Simples (Simple Routing)

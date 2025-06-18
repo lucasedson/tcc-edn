@@ -13,3 +13,7 @@ A arquitetura da plataforma Avalia.AI foi projetada para ser escalável e permit
 - **ECS**: Serviço de gerenciamento de containers em nuvem.
 - **RDS**: Serviço de banco de dados em nuvem.
 - **S3**: Serviço de armazenamento em nuvem.
+- **SQS**: Serviço de mensageria em nuvem.
+- **CloudWatch**: Serviço de monitoramento em nuvem.
+- **Route 53**: Serviço de DNS em nuvem.
+- **Lambda**: Serviço de funções em nuvem.

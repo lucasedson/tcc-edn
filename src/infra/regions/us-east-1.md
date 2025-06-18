@@ -18,5 +18,4 @@
 
 - Nome: Subnet-Privada-us-east-1
 - Cidr: 10.0.2.0/24
-- NAT Gateway: ngw-us-east-1
   
